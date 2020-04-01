@@ -137,3 +137,16 @@ footer {
   text-align: center;
 }
 
+@media only screen and(max-width: 680px) {
+
+  #logo {
+    float: none;
+    width: 100%;
+  }
+
+  #tel {
+    float: none;
+    width: 100px;
+  }
+
+}
