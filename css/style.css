@@ -137,7 +137,7 @@ footer {
   text-align: center;
 }
 
-@media only screen and(max-width: 680px) {
+@media only screen and (max-width: 680px) {
 
   #logo {
     float: none;
@@ -146,17 +146,22 @@ footer {
 
   #tel {
     float: none;
-    width: 100px;
+    width: 80%;
   }
   
   .item {
     float: none;
     width: 100px;
   }
-  
+
   .add {
     float: none;
     width: 100px;
+  }
+  
+  .out {
+    float: none;
+    width: 90%;
   }
   
   .ami {
