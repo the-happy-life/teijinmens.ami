@@ -148,5 +148,19 @@ footer {
     float: none;
     width: 100px;
   }
-
+  
+  .item {
+    float: none;
+    width: 100px;
+  }
+  
+  .add {
+    float: none;
+    width: 100px;
+  }
+  
+  .ami {
+    float: none;
+    width: 100px;
+  }
 }
