@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'メイリオ', 'Meiryo','MS ゴシック', 'Hiragino kaku goshic ProN', 'ヒラギノ角ゴ ProN W3',sans-serif;
+  }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.clearlist {
+  content: "";
+  display: block;
+clear: both;
+}
+
+/* ヘッダー */
+header {
+  position: relative;
+}
+
+#logo {
+float: left;
+width: 70%;
+}
+
+#tel {
+  width: 30%;
+  float: right;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+
+nav {
+  background-color :darkblue;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav a {
+display: block;
+text-decoration: none;
+color: white;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+/* メイン */
+#concept {
+  padding-left: 10px;
+}
+
+.ami {
+  width: 70%;
+  float: left;
+}
+
+.image {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#menu {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.item {
+  width: 18%;
+  float: left;
+  margin-left: 2%;
+
+}
+
+.item img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.name {
+  width: 100%;
+  float: left;
+}
+
+#access {
+  padding-left: 10px;
+}
+
+.add {
+  width: 50%;
+  float: left;
+}
+
+.out {
+  width: 50%;
+  float: right;
+  text-align: left;
+}
+
+
+
+/* フッター */
+footer {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.logo {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.link {
+  font-size: 10px;
+  text-align: center;
+}
+
